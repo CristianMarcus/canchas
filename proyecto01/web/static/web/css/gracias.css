@@ -1,0 +1,6 @@
+img {
+    width: 30%; /* Establece el ancho de las imágenes al 50% del contenedor */
+    height: auto; /* Mantén la proporción de la imagen */
+    display: block; /* Asegura que las imágenes se comporten como bloques */
+    margin: 0 auto; /* Centra las imágenes horizontalmente */
+}
