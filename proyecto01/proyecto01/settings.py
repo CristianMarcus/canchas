@@ -75,9 +75,9 @@ WSGI_APPLICATION = 'proyecto01.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'cancha',   # Reemplaza con el nombre de tu base de datos
+        'NAME': 'canchas',   # Reemplaza con el nombre de tu base de datos
         'USER': 'postgres',                   # Reemplaza con tu nombre de usuario de PostgreSQL
-        'PASSWORD': 'codoacodo',            # Reemplaza con tu contraseña de PostgreSQL
+        'PASSWORD': '1234',            # Reemplaza con tu contraseña de PostgreSQL
         'HOST': 'localhost',                    # Reemplaza si tu base de datos no está en el mismo servidor
         'PORT': '5432',                         # Puerto por defecto de PostgreSQL, cámbialo si es necesario
     }
